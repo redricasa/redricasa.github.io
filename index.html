@@ -1,8 +1,56 @@
-<DOCTYPE html>
-    <head>
-        <title>first github page!</title>
-    </head>
-    <body>
-        <h1>My First Github page!</h1>
-    </body>
+<!DOCTYPE html>
+<head>
+<!--link html to css style sheet-->
+    <link href="style.css" rel="stylesheet">
+    <title>Homework week 1</title>
+    
+</head>
+
+<body>
+
+<!--header-->
+    <header>
+    header
+    </header>
+<!--nav: style in a section tag-->
+    <nav class="nav">
+    nav  
+    </nav>
+<!--add the middle section both elements have to be inline
+    : 'section' and aside first, <seciton> is a block level element
+    on another note, in line elements can't have height therefore, have both aside 
+    and section in a block element= class of 'middle'
+    display: in-line block solves the issue!-->
+
+    <div class="middle">
+        <section class="section">
+        section
+<!--within 'section', add 'article'-->
+            <div class="article">
+    article
+<!--within 'article' add two blocks : 'h1,h2,h3' and 'p'-->
+                <div class="hs">
+                <!--bold 'h1,h2,h3'-->
+                    <strong>h1, h2, h3</strong>
+                </div>
+                <div class="p">
+                p
+                </div>
+            </div>
+        </section>
+    
+<!--aside float right by itself. 
+hint: <aside> is a block level element-->
+        <div class="aside">
+        aside
+        </div>
+    </div>
+<!--footer-->
+    <footer>
+    footer
+    </footer>
+
+
+</body>
+
 </html>
